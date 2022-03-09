@@ -19,16 +19,7 @@ jobs:
           command: npm install
       - run:
           name: InstallQuasar
-          command: npm install -g @quasar/cli
+          command: npm install @quasar/cli
       - run:
           name: Build
           command: quasar build
-      - run:
-          name: Deploy
-          command: quasar dev
-      - run:
-          name: AuthSet
-          command: chmod +x ./circleci-deploy.sh
-      - run:
-          name: Deploy
-          command: ./circleci-deploy.sh
