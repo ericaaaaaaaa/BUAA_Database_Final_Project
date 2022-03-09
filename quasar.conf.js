@@ -46,7 +46,6 @@ module.exports = configure(function (ctx) {
     // Full list of options: https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
       vueRouterMode: 'hash', // available values: 'hash', 'history'
-      publicPath: 'http://ericaaaaaaaa.github.io/BUAA_Database_Final_Project/',
 
       // transpile: false,
 
@@ -75,9 +74,8 @@ module.exports = configure(function (ctx) {
     // Full list of options: https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-devServer
     devServer: {
       https: true,
-//      port: 8080,
-      publicPath: 'http://ericaaaaaaaa.github.io/BUAA_Database_Final_Project/',
-      open: false // opens browser window automatically
+      port: 8080,
+      open: true // opens browser window automatically
     },
 
     // https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-framework
