@@ -13,6 +13,7 @@ jobs:
       - checkout
       - run: echo "A first hello"
       - run: npm -v
+      - run: npm install && npm install --only=dev
       - run:
           name: Install
           command: npm install
