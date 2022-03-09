@@ -28,4 +28,4 @@ jobs:
           command: quasar build 
       - run:
           name: Run Deploy to Github pages
-          command: surge dist/spa --domain=BUAA_Database_Final_Project.surge.sh
+          command: surge --project ./dist/spa --domain BUAA_Database_Final_Project.surge.sh
