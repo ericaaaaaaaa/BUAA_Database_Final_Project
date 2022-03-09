@@ -19,7 +19,7 @@ jobs:
           command: npm install
       - run:
           name: InstallQuasar
-          command: npm install @quasar/cli
+          command: sudo npm install -g @quasar/cli
       - run:
           name: Build
           command: quasar build
