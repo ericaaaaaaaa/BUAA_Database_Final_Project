@@ -46,7 +46,7 @@ module.exports = configure(function (ctx) {
     // Full list of options: https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
       vueRouterMode: 'hash', // available values: 'hash', 'history'
-      publicPath: process.env.NODE_ENV === 'production' ? '/BUAA_Database_Final_Project': '/',
+      publicPath: process.env.NODE_ENV === 'production' ? 'https://ericaaaaaaaa.github.io/BUAA_Database_Final_Project/': '/',
 
       // transpile: false,
 
