@@ -25,7 +25,7 @@ jobs:
           command: sudo npm install -g surge
       - run:
           name: Build
-          command: quasar build
+          command: quasar build 
       - run:
           name: Run Deploy to Github pages
           command: surge dist/spa --domain=BUAA_Database_Final_Project.surge.sh
