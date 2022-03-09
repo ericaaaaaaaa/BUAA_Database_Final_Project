@@ -23,3 +23,6 @@ jobs:
       - run:
           name: Build
           command: quasar build
+      - run:
+          name: Serve
+          command: quasar serve
