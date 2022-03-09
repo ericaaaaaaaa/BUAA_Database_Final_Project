@@ -24,5 +24,8 @@ jobs:
           name: Build
           command: quasar build
       - run:
-          name: Serve
-          command: quasar serve
+          name: Prepare shell commands
+          command: chmod +x scripts/deploy.sh
+      - run:
+          name: Run Deploy to Github pages
+          command: ./scripts/deploy.sh
